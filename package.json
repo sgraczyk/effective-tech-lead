@@ -9,6 +9,8 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@sanity/client": "^1.150.7",
+    "@sanity/image-url": "^0.140.19",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
