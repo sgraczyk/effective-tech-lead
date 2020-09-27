@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.css'
 
 export default function Home(): JSX.Element {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>The Effective Tech Lead</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,6 +26,6 @@ export default function Home(): JSX.Element {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
-    </div>
+    </>
   )
 }

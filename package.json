@@ -9,8 +9,12 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@sanity/client": "^1.150.7",
     "@sanity/image-url": "^0.140.19",
+    "emotion-theming": "^10.0.27",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"

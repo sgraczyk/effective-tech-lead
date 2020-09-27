@@ -16,7 +16,8 @@
     "jsx": "preserve",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/services/*": ["services/*"]
+      "@/services/*": ["services/*"],
+      "@/themes/*": ["themes/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
